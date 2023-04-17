@@ -95,8 +95,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
               </div>
               <div className="text">
                 <p>
-                My name is <span>Melih Ünver.</span> I am a web3 developer and graphic designer,
-                  and {`I'm`} very passionate about my work.
+                I am a web3 developer and graphic designer
                 </p>
               </div>
             </div>
@@ -104,7 +103,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
               <div className="about_title">
                 <h3>
                   <span>
-                    Quality <span className="coloring">Services</span>
+                    <span className="coloring">Services</span>
                   </span>
                 </h3>
               </div>
@@ -272,7 +271,89 @@ const AboutPopup = ({ open, close, aboutData }) => {
                 </ul>
               </div>
             </div>
-            
+            <div className="testimonial">
+              <div className="about_title">
+                <h3>
+                  <span>
+                    Clients <span className="coloring">Feedback</span>
+                  </span>
+                </h3>
+              </div>
+              <div className="list">
+                <Swiper {...testimonialSlider} className="owl-carousel">
+                  <SwiperSlide>
+                    <div className="list_inner">
+                      <div className="text">
+                        <i className="icon-quote-left" />
+                        <p>
+                          Beautiful minimalist design and great, fast response
+                          with support. Highly recommend. Thanks Marketify!
+                        </p>
+                      </div>
+                      <div className="details">
+                        <div className="image">
+                          <div
+                            className="main"
+                            data-img-url="img/testimonials/1.jpg"
+                          />
+                        </div>
+                        <div className="info">
+                          <h3>Alexander Walker</h3>
+                          <span>Graphic Designer</span>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="list_inner">
+                      <div className="text">
+                        <i className="icon-quote-left" />
+                        <p>
+                          These people really know what they are doing! Great
+                          customer support availability and supperb kindness.
+                        </p>
+                      </div>
+                      <div className="details">
+                        <div className="image">
+                          <div
+                            className="main"
+                            data-img-url="img/testimonials/2.jpg"
+                          />
+                        </div>
+                        <div className="info">
+                          <h3>Armin Van Buuren</h3>
+                          <span>Content Manager</span>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="list_inner">
+                      <div className="text">
+                        <i className="icon-quote-left" />
+                        <p>
+                          I had a little problem and the support was just
+                          awesome to quickly solve the situation. And keep going
+                          on.
+                        </p>
+                      </div>
+                      <div className="details">
+                        <div className="image">
+                          <div
+                            className="main"
+                            data-img-url="img/testimonials/3.jpg"
+                          />
+                        </div>
+                        <div className="info">
+                          <h3>Baraka Clinton</h3>
+                          <span>English Teacher</span>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                </Swiper>
+              </div>
+            </div>
           </div>
         </div>
       </div>

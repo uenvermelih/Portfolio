@@ -77,8 +77,8 @@ const About = () => {
               </div>
               <div className="text">
                 <p>
-                  My name is <span>Melih Ünver.</span> I am a web3 developer and graphic designer,
-                  and {`I'm`} very passionate about my work. 
+                  My name is <span>Melih Ünver.</span> I am a web3 developer and graphic designer
+                
                 </p>
               </div>
               <div className="edrea_tm_button">
