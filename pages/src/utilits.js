@@ -1,4 +1,5 @@
 import ReactDOM from "react-dom";
+import wow from 'wow.js';
 const preloader_ = () => {
   let isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(
     navigator.userAgent

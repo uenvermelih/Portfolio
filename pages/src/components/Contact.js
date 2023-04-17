@@ -1,4 +1,4 @@
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import { useState } from "react";
 
 const Contact = () => {
@@ -19,10 +19,11 @@ const Contact = () => {
     } else {
       emailjs
         .send(
-          "service_seruhwu", // service id
-          "template_21aw58z", // template id
+          "service_tqibkq9", // service id
+          "template_8wxtb5s", // template id
           mailData,
           "Q3pccdLZhU-mZT7tQ" // public api
+          //"ov8gZ6wvz5aXRa7Rs" // public api
         )
         .then(
           (response) => {
@@ -42,7 +43,12 @@ const Contact = () => {
     }, 2000);
   };
   return (
+
+    
     <div className="edrea_tm_section hidden animated" id="contact">
+
+      
+
       <div className="section_inner">
         <div className="edrea_tm_contact">
           <div className="edrea_tm_main_title">
@@ -75,11 +81,11 @@ const Contact = () => {
                   <div className="list_inner">
                     <i className="icon-mail-1" />
                     <span>
-                      <a href="mailto:example@gmail.com">uenvermelih@gmail.com</a>
+                      <a href="mailto:uenvermelih@gmail.com">uenvermelih@gmail.com</a>
                     </span>
                   </div>
                 </li>
-               
+
               </ul>
             </div>
             <div className="right">
@@ -151,7 +157,12 @@ const Contact = () => {
           </div>
         </div>
       </div>
+
+
     </div>
+
   );
+
+
 };
 export default Contact;

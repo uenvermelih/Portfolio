@@ -9,7 +9,7 @@ import Header from "./Header";
 import MobileHeader from "./MobileHeader";
 import Mouse from "./Mouse";
 import PreLoader from "./PreLoader";
-import Settings from "./Settings";
+//import Settings from "./Settings";
 
 const Layout = ({ children }) => {
   useEffect(() => {
@@ -53,7 +53,7 @@ const Layout = ({ children }) => {
 
         {/* WAVE DOTS */}
         {/* SETTINGS */}
-        <Settings />
+        {/* <Settings /> */}
         {/* /SETTINGS */}
         {/* MOBILE MENU */}
         <MobileHeader />
