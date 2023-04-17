@@ -32,7 +32,7 @@ svg.CircularProgressbar {
   font-size: unset;
 }
 .CircularProgressbar .CircularProgressbar-path {
-  stroke: #eb4a4c;
+  stroke: #00D4BD;
 }
 .CircularProgressbar .CircularProgressbar-trail {
   stroke: #a2a2a2;

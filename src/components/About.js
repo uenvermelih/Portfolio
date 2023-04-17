@@ -77,7 +77,7 @@ const About = () => {
               </div>
               <div className="text">
                 <p>
-                  My name is <span>Melih Ünver.</span> I am a web3 developer and graphic designer
+                  My name is <span>Melih Ünver.</span> As an aeronautical engineering graduate with experience in aircraft maintenance and FEM, I have developed a comprehensive technical skill set. In addition to my engineering background, I have honed my abilities as a web3 developer, utilizing technologies to create financial systems. As a graphic designer proficient in Blender, I possess a creative eye for detail and aesthetics. My diverse range of experience and expertise equips me with a unique perspective, enabling me to excel in various industries and roles. I am always eager to expand my knowledge and take on new challenges in pursuit of professional growth.
                 
                 </p>
               </div>
