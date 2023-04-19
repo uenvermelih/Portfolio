@@ -1,4 +1,6 @@
 import ReactDOM from "react-dom";
+import { findDOMNode } from "react-dom";
+
 const preloader_ = () => {
   let isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(
     navigator.userAgent
@@ -32,7 +34,7 @@ export const customCursor = () => {
     
     
     function mouseEvent(element) {
-      ReactDOM.findDOMNode(element).addEventListener("mouseenter", function () {
+      findDOMNode(element).addEventListener("mouseenter", function () {
         e.classList.add("cursor-hover"), t.classList.add("cursor-hover");
       });
       ReactDOM.findDOMNode(element).addEventListener("mouseleave", function () {
