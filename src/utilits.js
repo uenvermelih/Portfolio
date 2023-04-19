@@ -29,14 +29,19 @@ export const customCursor = () => {
     e = document.querySelector(".cursor-inner"),
     t = document.querySelector(".cursor-outer");
 
-  function mouseEvent(element) {
-    ReactDOM.findDOMNode(element).addEventListener("mouseenter", function () {
-      e.classList.add("cursor-hover"), t.classList.add("cursor-hover");
-    });
-    ReactDOM.findDOMNode(element).addEventListener("mouseleave", function () {
-      e.classList.remove("cursor-hover"), t.classList.remove("cursor-hover");
-    });
-  }
+    
+    
+    function mouseEvent(element) {
+      ReactDOM.findDOMNode(element).addEventListener("mouseenter", function () {
+        e.classList.add("cursor-hover"), t.classList.add("cursor-hover");
+      });
+      ReactDOM.findDOMNode(element).addEventListener("mouseleave", function () {
+        e.classList.remove("cursor-hover"), t.classList.remove("cursor-hover");
+      });
+    }
+    
+
+
   if (myCursor.length) {
     if (document.body) {
       let n,
