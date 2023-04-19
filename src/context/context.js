@@ -31,7 +31,7 @@ const type = {
     }
   };
   
-  const State = (props) => {
+  const contextState = (props) => {
     const initialState = {
       nav: "home",
       color: "#00D4BD",
@@ -107,7 +107,7 @@ const type = {
     );
   };
   
-  export default State;
+  export default contextState;
   
   export { context };
   
